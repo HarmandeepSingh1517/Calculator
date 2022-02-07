@@ -14,9 +14,9 @@ private double mem;
 	/**
 	 * constructor Calculator initializes mem to zero
 	 */
-public void printInfo(
+public void printInfo(){
 System.out.println(name-harmandeep ,course-computer programming);
-)
+}
 /**
  *this method  stores sum of two arguments in mem
  * @param x
@@ -73,7 +73,8 @@ public double divide(double x,double y) {
         
      double c =   cal.add(a, b);
         System.out.print(c);
-                }    
+                  
 	cal.printInfo();
+    }
     
 }
